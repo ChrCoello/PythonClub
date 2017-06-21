@@ -17,8 +17,9 @@ The meeting introduced a packqge to download images AND spatial coordinate from 
 Each member of the club was asked (if time) to write a Python function/script that achieves the downsampling of an image or a collection of images.
 Inputs :
  - input 1: either an absolute filename path (i.e C:\data\test\section_001.tif) or an absolute path (i.e C:\data\test\)
- - input 2: a real number between 0 and 1 that will be used as downsampling factor (ds_factor) : newX = X * ds_factor and newY = Y * ds_factor
+ - input 2: a real number between 0 and 1 that will be used as downsampling factor (ds_factor) : newX = X \* ds_factor and newY = Y \* ds_factor
 Output :
  - output 1: either an absolute filename path or an absolute path
-This is deliberatly vague (where to save, format, name, interpolation, etc...) to give some flexibility to the user and confront choices.
-The script function will be tested using this data located [here](http://folk.uio.no/sebastcc/export_res/tiff_inf_4G/)
+
+These instructions are deliberatly vague (where to save, format, name, interpolation, etc... not specified) to give some flexibility to the user and see the choices you came up with.
+The script and/or function will be tested using this data located [here](http://folk.uio.no/sebastcc/export_res/test_downsize/)
